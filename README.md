@@ -5,7 +5,7 @@
 This project is done as a part of capstone project for Computer vision Foundations nanodegree.
 ```
 
-2. Create (and activate) a new environment with Python 3.5 and the `numpy` package.
+1. Create (and activate) a new environment with Python 3.5 and the `numpy` package.
 
 	- __Linux__ or __Mac__: 
 	```
@@ -18,7 +18,7 @@ This project is done as a part of capstone project for Computer vision Foundatio
 	activate aind-cv
 	```
 
-3. Install/Update TensorFlow (for this project, you may use CPU only).
+2. Install/Update TensorFlow (for this project, you may use CPU only).
 	- Option 1: __To install TensorFlow with GPU support__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using the Udacity AMI, you can skip this step and only need to install the `tensorflow-gpu` package:
 	```
 	pip install tensorflow-gpu -U
@@ -28,12 +28,12 @@ This project is done as a part of capstone project for Computer vision Foundatio
 	pip install tensorflow -U
 	```
 
-4. Install/Update Keras.
+3. Install/Update Keras.
  ```
 pip install keras -U
 ```
 
-5. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
+4. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
 	- __Linux__ or __Mac__: 
 	```
 	KERAS_BACKEND=tensorflow python -c "from keras import backend"
@@ -44,7 +44,7 @@ pip install keras -U
 	python -c "from keras import backend"
 	```
 
-6. Install a few required pip packages (including OpenCV).
+5. Install a few required pip packages (including OpenCV).
 ```
 pip install -r requirements.txt
 ```
